@@ -1,0 +1,29 @@
+img {
+    width: 110px;
+    border-radius: 50%;
+}
+p {
+
+}
+.container-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    text-align: center;
+}
+.container-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .container-profil {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
