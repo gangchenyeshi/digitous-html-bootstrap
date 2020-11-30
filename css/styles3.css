@@ -5,40 +5,17 @@ img {
 p {
 
 }
-
-.container-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10%;
-}
 .container-profil {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(245, 243, 243);
-    padding: 20px;
-    font-weight: normal;
     text-align: center;
-}
-.container-profil-photo {
-    margin-right: 10%;
-    margin-top: 10px;
 }
 .container-text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
-}
-
-.container-text .first-col{
-    padding-right: 10px;
-}
-.container-text .second-col{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.container-text .third-col{
-    padding-left: 10px;
-}
+    text-align: center;
